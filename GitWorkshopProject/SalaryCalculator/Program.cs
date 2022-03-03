@@ -12,7 +12,6 @@ namespace SalaryCalculator
             Console.WriteLine(string.Format("Engineer's Salary: {0}", engineerSalary));
 
             Console.ReadLine();
-            
         }
     }
 }
