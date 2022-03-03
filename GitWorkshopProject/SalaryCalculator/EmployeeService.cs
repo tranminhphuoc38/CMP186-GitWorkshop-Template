@@ -28,6 +28,9 @@ namespace SalaryCalculator
                 factor = 3;
             }
             // TODO: if employee is Expert, set factor = 3
+            else if (employeeType == EmployeeType.Expert){
+                factor = 3;
+            }
 
             var salary = BASIC_SALARY * years * factor;
 
