@@ -27,7 +27,7 @@ namespace SalaryCalculator
             {
                 factor = 3;
             }
-            else if (employeeType == EmployeeType.ExpertManager)
+            else if (employeeType == EmployeeType.Expert)
             {
                 factor = 3;
             }
